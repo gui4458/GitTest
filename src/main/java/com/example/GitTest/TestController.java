@@ -8,8 +8,8 @@ public class TestController {
     @GetMapping("/")
     public String main(){
         System.out.println(1111111);
-        System.out.println(222222222);
-        System.out.println(33333);
+        System.out.println("이 코드는 dev 브렌치에서 추가함");
+
         return "main";
     }
 }

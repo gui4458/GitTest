@@ -9,6 +9,7 @@ public class TestController {
     public String main(){
         System.out.println(1111111);
         System.out.println(222222222);
+        System.out.println(33333);
         return "main";
     }
 }

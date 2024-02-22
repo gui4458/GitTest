@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class TestController {
     @GetMapping("/")
     public String main(){
+        System.out.println(1111111);
         return "main";
     }
 }
